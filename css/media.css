@@ -1,0 +1,252 @@
+@media screen and (max-width: 650px) {
+	.header {
+		padding: 2rem 5rem;
+	}
+	.section_hero {
+		padding: 0 5rem;
+	}
+	.hero_text {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.hero_paragraph {
+		font-size: 1.2rem;
+	}
+	.btn-con {
+		gap: 1rem;
+	}
+	.btn {
+		padding: 1rem 2rem;
+	}
+	.hero_image {
+		width: 100%;
+	}
+	.section_feature {
+		padding: 0 5rem;
+	}
+	.feature_head {
+		font-size: 2.7rem;
+	}
+	.feature_text {
+		font-size: 1.3rem;
+	}
+	.grid_con {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+	.feature_subhead {
+		font-size: 1.8rem;
+	}
+	.feature_subtext {
+		font-size: 1.2rem;
+	}
+	.section_solution {
+		padding: 0 5rem;
+	}
+	.solution_headline {
+		font-size: 3rem;
+	}
+	.solution_grid {
+		gap: 4rem;
+	}
+	.solution_headline_text {
+		font-size: 1.3rem;
+	}
+	.solution_subheading {
+		font-size: 2rem;
+	}
+	.solution_subtitle {
+		font-size: 1.7rem;
+	}
+	.solution_subtitle_paragraph {
+		font-size: 1.2rem;
+		margin-bottom: 1.2rem;
+	}
+	.solution_subtitle_paragraph br {
+		display: none;
+	}
+	.feedback_section {
+		padding: 0 5rem;
+	}
+	.feedback_headline {
+		font-size: 2.7rem;
+	}
+	.feedback_paragraph {
+		font-size: 1.2rem;
+	}
+	.flex_box {
+		grid-template-columns: repeat(2, 250px);
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+	}
+	.last-feeedback {
+		grid-column: 1/-1;
+		justify-self: center;
+	}
+	.cta_section {
+		margin: 0 5rem;
+		padding: 3rem;
+		gap: 0.51rem;
+	}
+	.cta_headline {
+		font-size: 2rem;
+		margin-bottom: 0.51rem;
+	}
+	.cta_paragraph {
+		font-size: 1.1rem;
+	}
+	.form input {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.btn_subscribe {
+		width: 50%;
+	}
+	.footer {
+		padding: 0 5rem;
+	}
+	.footer_grid {
+		grid-template-columns: repeat(2, 1.5fr);
+		grid-template-rows: 1fr;
+		align-items: center;
+		margin-left: 6rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.header {
+		margin-bottom: 4rem;
+	}
+	.hero_box {
+		margin-bottom: 1rem;
+	}
+	.hero_text {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	.hero_paragraph {
+		font-size: 1rem;
+	}
+	.image-con {
+		grid-row: 1;
+	}
+	.feature_head {
+		font-size: 1.6rem;
+		margin-bottom: 0.51rem;
+	}
+	.feature_text {
+		font-size: 1.1rem;
+	}
+	.grid_con {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+	}
+	.feature_icon {
+		width: 15%;
+	}
+	.section_solution {
+		padding: 0 2rem;
+	}
+	.solution_grid {
+		grid-template-columns: 1fr;
+	}
+	.solution_headline {
+		font-size: 2.5rem;
+	}
+	.solution_headline_text {
+		font-size: 1.1rem;
+	}
+	.solution_subheading {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.solution_subtitle {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+	.solution_subtitle_paragraph {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.solution_order_list li {
+		margin-left: 1rem;
+		font-size: 1.4rem;
+	}
+	.solution_headline_text {
+		font-size: 1.9rem;
+	}
+	.solution_image_con {
+		grid-row: 1;
+	}
+	.feedback_section {
+		padding: 0 3rem;
+	}
+	.feedback_paragraph {
+		font-size: 1.5rem;
+	}
+	.feedback_paragraph br {
+		display: none;
+	}
+	.flex_box {
+		grid-template-columns: 1fr;
+	}
+	.cta_section {
+		margin: 0 3rem;
+		grid-template-columns: 1fr;
+	}
+	.cta_headline {
+		text-align: center;
+		font-size: 3.2rem;
+	}
+	.cta_paragraph {
+		font-size: 1.6rem;
+		text-align: center;
+		margin-bottom: 2.5rem;
+	}
+	.form {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer {
+		padding: 0 3rem;
+	}
+	.footer_logo {
+		width: 25%;
+	}
+	.footer_text {
+		font-size: 1.5rem;
+	}
+	.footer_grid {
+		grid-template-columns: 1.5fr;
+		grid-template-rows: 1fr;
+		align-items: center;
+		margin-left: 2rem;
+		text-align: center;
+	}
+	/* Sign-Up_page */
+	.sign_up_con {
+		padding: 0 3rem;
+	}
+	.sign_in_logo {
+		width: 20%;
+		margin: 5rem 3rem 0 3rem;
+	}
+	.sign_up_headline {
+		font-size: 2rem;
+	}
+	.google_sign_up {
+		gap: 5rem;
+	}
+	.google_link {
+		margin-right: 5rem;
+	}
+	.form_text {
+		font-size: 1.1rem;
+	}
+	.sign-in_con {
+		padding: 0 2rem;
+		margin-top: 5rem;
+	}
+}
